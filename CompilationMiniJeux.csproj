@@ -1,0 +1,202 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\arr-plan\ciel.jpg" />
+    <None Remove="img\avion\tile0.png" />
+    <None Remove="img\avion\tile1.png" />
+    <None Remove="img\avion\tile10.png" />
+    <None Remove="img\avion\tile11.png" />
+    <None Remove="img\avion\tile2.png" />
+    <None Remove="img\avion\tile3.png" />
+    <None Remove="img\avion\tile4.png" />
+    <None Remove="img\avion\tile5.png" />
+    <None Remove="img\avion\tile6.png" />
+    <None Remove="img\avion\tile7.png" />
+    <None Remove="img\avion\tile8.png" />
+    <None Remove="img\avion\tile9.png" />
+    <None Remove="img\bleuBas.png" />
+    <None Remove="img\bleuDroite.png" />
+    <None Remove="img\bleuGauche.png" />
+    <None Remove="img\bleuHaut.png" />
+    <None Remove="img\EcranIntermediaire\bonbonecraninter.png" />
+    <None Remove="img\EcranIntermediaire\coeur.png" />
+    <None Remove="img\fondecranaccueil.png" />
+    <None Remove="img\gobelet.png" />
+    <None Remove="img\joueur\bas\tile000.png" />
+    <None Remove="img\joueur\bas\tile001.png" />
+    <None Remove="img\joueur\bas\tile002.png" />
+    <None Remove="img\joueur\bas\tile003.png" />
+    <None Remove="img\joueur\droite\tile000.png" />
+    <None Remove="img\joueur\droite\tile001.png" />
+    <None Remove="img\joueur\droite\tile002.png" />
+    <None Remove="img\joueur\droite\tile003.png" />
+    <None Remove="img\joueur\gauche\tile000.png" />
+    <None Remove="img\joueur\gauche\tile001.png" />
+    <None Remove="img\joueur\gauche\tile002.png" />
+    <None Remove="img\joueur\gauche\tile003.png" />
+    <None Remove="img\joueur\haut\tile000.png" />
+    <None Remove="img\joueur\haut\tile001.png" />
+    <None Remove="img\joueur\haut\tile002.png" />
+    <None Remove="img\joueur\haut\tile003.png" />
+    <None Remove="img\MiniJeuBonbons\bonbon_parachute.png" />
+    <None Remove="img\MiniJeuBonbons\boule_piques_parachute.png" />
+    <None Remove="img\MiniJeuBonbons\carton.png" />
+    <None Remove="img\MiniJeuPignata\destructionpignata0.png" />
+    <None Remove="img\MiniJeuPignata\destructionpignata1.png" />
+    <None Remove="img\MiniJeuPignata\destructionpignata2.png" />
+    <None Remove="img\MiniJeuPignata\destructionpignata3.png" />
+    <None Remove="img\MiniJeuPignata\destructionpignata4.png" />
+    <None Remove="img\MiniJeuPignata\pignata.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc0.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc1.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc10.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc11.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc12.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc13.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc14.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc15.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc2.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc3.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc4.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc5.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc6.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc7.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc8.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\bloc9.png" />
+    <None Remove="img\MiniJeuRunner\Blocs\lignearrivee.png" />
+    <None Remove="img\MiniJeuRunner\bonbon.png" />
+    <None Remove="img\MiniJeuRunner\Joueur\animationmarche0.png" />
+    <None Remove="img\MiniJeuRunner\Joueur\animationmarche1.png" />
+    <None Remove="img\MiniJeuRunner\Joueur\animationmarche2.png" />
+    <None Remove="img\MiniJeuRunner\Joueur\animationsaut.png" />
+    <None Remove="img\MiniJeuRunner\objetdoublesaut.png" />
+    <None Remove="img\MiniJeuTapette\bonbonvolant0.png" />
+    <None Remove="img\MiniJeuTapette\bonbonvolant1.png" />
+    <None Remove="img\MiniJeuTapette\bonbonvolant2.png" />
+    <None Remove="img\MiniJeuTapette\bonbonvolant3.png" />
+    <None Remove="img\MiniJeuTapette\imageimpact.png" />
+    <None Remove="img\MiniJeuTapette\tapette.png" />
+    <None Remove="img\orangeBas.png" />
+    <None Remove="img\orangeDroite.png" />
+    <None Remove="img\orangeGauche.png" />
+    <None Remove="img\orangeHaut.png" />
+    <None Remove="img\roseBas.png" />
+    <None Remove="img\roseDroite.png" />
+    <None Remove="img\roseGauche.png" />
+    <None Remove="img\roseHaut.png" />
+    <None Remove="img\rougeBas.png" />
+    <None Remove="img\rougeDroite.png" />
+    <None Remove="img\rougeGauche.png" />
+    <None Remove="img\rougeHaut.png" />
+    <None Remove="img\sac-bonbons.png" />
+    <None Remove="PoliceEcriture\policeEcriturePixelisee.ttf" />
+    <None Remove="sons\musiqueJeu.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="sons\musiqueJeu.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\arr-plan\ciel.jpg" />
+    <Resource Include="img\avion\tile0.png" />
+    <Resource Include="img\avion\tile1.png" />
+    <Resource Include="img\avion\tile10.png" />
+    <Resource Include="img\avion\tile11.png" />
+    <Resource Include="img\avion\tile2.png" />
+    <Resource Include="img\avion\tile3.png" />
+    <Resource Include="img\avion\tile4.png" />
+    <Resource Include="img\avion\tile5.png" />
+    <Resource Include="img\avion\tile6.png" />
+    <Resource Include="img\avion\tile7.png" />
+    <Resource Include="img\avion\tile8.png" />
+    <Resource Include="img\avion\tile9.png" />
+    <Resource Include="img\bleuBas.png" />
+    <Resource Include="img\bleuDroite.png" />
+    <Resource Include="img\bleuGauche.png" />
+    <Resource Include="img\bleuHaut.png" />
+    <Resource Include="img\EcranIntermediaire\bonbonecraninter.png" />
+    <Resource Include="img\EcranIntermediaire\coeur.png" />
+    <Resource Include="img\fondecranaccueil.png" />
+    <Resource Include="img\gobelet.png" />
+    <Resource Include="img\joueur\bas\tile000.png" />
+    <Resource Include="img\joueur\bas\tile001.png" />
+    <Resource Include="img\joueur\bas\tile002.png" />
+    <Resource Include="img\joueur\bas\tile003.png" />
+    <Resource Include="img\joueur\droite\tile000.png" />
+    <Resource Include="img\joueur\droite\tile001.png" />
+    <Resource Include="img\joueur\droite\tile002.png" />
+    <Resource Include="img\joueur\droite\tile003.png" />
+    <Resource Include="img\joueur\gauche\tile000.png" />
+    <Resource Include="img\joueur\gauche\tile001.png" />
+    <Resource Include="img\joueur\gauche\tile002.png" />
+    <Resource Include="img\joueur\gauche\tile003.png" />
+    <Resource Include="img\joueur\haut\tile000.png" />
+    <Resource Include="img\joueur\haut\tile001.png" />
+    <Resource Include="img\joueur\haut\tile002.png" />
+    <Resource Include="img\joueur\haut\tile003.png" />
+    <Resource Include="img\MiniJeuBonbons\bonbon_parachute.png" />
+    <Resource Include="img\MiniJeuBonbons\boule_piques_parachute.png" />
+    <Resource Include="img\MiniJeuBonbons\carton.png" />
+    <Resource Include="img\MiniJeuPignata\destructionpignata0.png" />
+    <Resource Include="img\MiniJeuPignata\destructionpignata1.png" />
+    <Resource Include="img\MiniJeuPignata\destructionpignata2.png" />
+    <Resource Include="img\MiniJeuPignata\destructionpignata3.png" />
+    <Resource Include="img\MiniJeuPignata\destructionpignata4.png" />
+    <Resource Include="img\MiniJeuPignata\pignata.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc0.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc1.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc10.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc11.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc12.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc13.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc14.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc15.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc2.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc3.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc4.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc5.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc6.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc7.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc8.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\bloc9.png" />
+    <Resource Include="img\MiniJeuRunner\Blocs\lignearrivee.png" />
+    <Resource Include="img\MiniJeuRunner\bonbon.png" />
+    <Resource Include="img\MiniJeuRunner\Joueur\animationmarche0.png" />
+    <Resource Include="img\MiniJeuRunner\Joueur\animationmarche1.png" />
+    <Resource Include="img\MiniJeuRunner\Joueur\animationmarche2.png" />
+    <Resource Include="img\MiniJeuRunner\Joueur\animationsaut.png" />
+    <Resource Include="img\MiniJeuRunner\objetdoublesaut.png" />
+    <Resource Include="img\MiniJeuTapette\bonbonvolant0.png" />
+    <Resource Include="img\MiniJeuTapette\bonbonvolant1.png" />
+    <Resource Include="img\MiniJeuTapette\bonbonvolant2.png" />
+    <Resource Include="img\MiniJeuTapette\bonbonvolant3.png" />
+    <Resource Include="img\MiniJeuTapette\imageimpact.png" />
+    <Resource Include="img\MiniJeuTapette\tapette.png" />
+    <Resource Include="img\orangeBas.png" />
+    <Resource Include="img\orangeDroite.png" />
+    <Resource Include="img\orangeGauche.png" />
+    <Resource Include="img\orangeHaut.png" />
+    <Resource Include="img\roseBas.png" />
+    <Resource Include="img\roseDroite.png" />
+    <Resource Include="img\roseGauche.png" />
+    <Resource Include="img\roseHaut.png" />
+    <Resource Include="img\rougeBas.png" />
+    <Resource Include="img\rougeDroite.png" />
+    <Resource Include="img\rougeGauche.png" />
+    <Resource Include="img\rougeHaut.png" />
+    <Resource Include="img\sac-bonbons.png" />
+    <Resource Include="PoliceEcriture\policeEcriturePixelisee.ttf" />
+  </ItemGroup>
+
+</Project>
